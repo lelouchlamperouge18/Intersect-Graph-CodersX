@@ -1,5 +1,3 @@
-<body>
-<script>
 	//Solve by Hoang Cong Son @lelouchlamperouge18(github) 
 	var red_path = [[0,0],[1,1],[3,2],[5,6],[7,7]];
 	var blue_path = [[0,5],[2,4],[5,3],[6,2]];
@@ -32,6 +30,3 @@
     	return [x,y];
 	}
 	console.log(Intersect(red_path[m],red_path[m+1],blue_path[n],blue_path[n+1],m,n));
-
-</script>
-</body>

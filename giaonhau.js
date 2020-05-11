@@ -21,7 +21,7 @@
 		}
 	} 
 	//Tim diem giao nhau
-	Intersect = function(a,b,c,d,m,n){
+	Intersect = function(a,b,c,d,m){
 		if (m===-1) return "NULL";
     	var a1 = (a[1]-b[1])/(a[0]-b[0]);
     	var a2 = (c[1]-d[1])/(c[0]-d[0]);
@@ -29,4 +29,4 @@
     	var y = a1*(x-a[0])+a[1];
     	return [x,y];
 	}
-	console.log(Intersect(red_path[m],red_path[m+1],blue_path[n],blue_path[n+1],m,n));
+	console.log(Intersect(red_path[m],red_path[m+1],blue_path[n],blue_path[n+1],m));
